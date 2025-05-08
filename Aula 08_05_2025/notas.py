@@ -1,3 +1,16 @@
+# Um caixa registrador precisa retornar o número de notas correto (notas de 1, 2, 5, 10, 20, 50, 100 e 200) para um saque
+# Faça um programa em Python que receba um valor de saque inteiro e imprime o número de notas respectivas
+# Exemplo:
+## Entrada: 516
+## Saída:
+### Notas de 1: 1
+### Notas de 2: 0
+### Notas de 5: 1
+### Notas de 10: 1
+### ...
+### Notas de 100: 1
+### Notas de 200: 2
+
 str_cashout = input("Digite o valor que deseja sacar: ")
 
 int_cashout = int(str_cashout) # 516
