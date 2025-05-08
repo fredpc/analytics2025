@@ -1,0 +1,29 @@
+Parte 1 e Parte 2
+- Objetos
+-- iteráveis: int, float, str, bool
+-- não iteráveis: list, tuple, set, dict
+
+- Variáveis
+x = 3 (Python)
+x <- 3 (R)
+int x = 3; (C, C++)
+
+- Built-in functions:
+print("Oi")
+
+- Operadores:
+-- lógicos: and, or, not
+-- igualdade: == <= >= != > <
+-- aritméticos: +, -, *, /, //, %, **
+-- outros: in
+
+- Métodos:
+-- dir(objeto)
+
+- Conceitos:
+-- Mutabilidade
+-- Impressão
+-- Retorno
+
+- Prática:
+-- Beecrowd (iniciante)
