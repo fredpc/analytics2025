@@ -1,0 +1,8 @@
+Alunos,Notas,Periodos
+Ana,5,3
+Ted,7,3
+Bill,8,4
+Raul,10,3
+João,4,4
+Leo,5,4
+Rai,7,3

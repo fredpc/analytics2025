@@ -1,0 +1,53 @@
+Revisão
+- Fatiamento
+- Acesso a partes
+- Exemplos:
+
+s = "e s c o l a"
+     0 1 2 3 4 5
+
+(I) Fatiamento
+    s[1:3]
+    1 = incluso
+    3 = exceto
+
+(II) fatiamento com pulos
+l = [2, 4, 6, 8, 10, 12]
+    L[2:5:2]
+    2 = incluso
+    5 = exceto
+    2 = pulo
+
+    Resultado sem o pulo: 4, 8, 10
+              com o pulo: 4, 10
+
+(III) Pegando elementos de dicionários
+d = {
+    "curso": "Produção",
+    "alunos": ["Ted", "Bia", "Ana"],
+    "notas": [7, 5, 8],
+    "escola": ["UFTM"],
+    "ano": 2025,
+    "férias": False
+}
+
+d["Notas"][2]
+
+- Condicionais:
+if 5 == 10/2:
+    print("ok")
+print("oi")
+
+# Resultado: imprime ok & oi
+
+# Outro:
+if 5 == 10/2:
+    print("ok")
+elif 5 == 25/5:
+    print("oi")
+
+# Resultado: imprime ok
+
+- Repetição
+for x in [2, 5, 7]:
+    print(x)
