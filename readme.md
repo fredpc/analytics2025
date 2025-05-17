@@ -15,7 +15,17 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 
 ## Reflexões: O que foi aprendido até agora?
 
-### Aula 1 e 2
-Aprendeu-se a distinguir diferentes tipos de objetos, como iteráveis (`int`, `float`, `str`, `bool`) e não iteráveis (`list`, `tuple`, `set`, `dict`), além de entender como variáveis são declaradas em diferentes linguagens: `x = 3` (Python), `x <- 3` (R) e `int x = 3;` (C/C++). Utilizou-se funções nativas como `print("Oi")`, operadores lógicos (`and`, `or`, `not`), de igualdade (`==`, `<=`, `>=`, `!=`, `>`, `<`), aritméticos (`+`, `-`, `*`, `/`, `//`, `%`, `**`) e o operador `in`. Também foi aplicado o método `dir(objeto)` para explorar atributos e métodos.
+### Semana 1 e 2
+Aprendemos a distinguir diferentes tipos de objetos, como iteráveis (`int`, `float`, `str`, `bool`) e não iteráveis (`list`, `tuple`, `set`, `dict`), além de entender como variáveis são declaradas em diferentes linguagens: `x = 3` (Python), `x <- 3` (R) e `int x = 3;` (C/C++). Utilizou-se funções nativas como `print("Oi")`, operadores lógicos (`and`, `or`, `not`), de igualdade (`==`, `<=`, `>=`, `!=`, `>`, `<`), aritméticos (`+`, `-`, `*`, `/`, `//`, `%`, `**`) e o operador `in`. Também foi aplicado o método `dir(objeto)` para explorar atributos e métodos.
 
-Foram abordados conceitos como mutabilidade, impressão e retorno de valores, e a opção de praticar outros tipos de conteúdo por meio de exercícios na plataforma Beecrowd (nível iniciante).
+Além disso, foram abordados conceitos como mutabilidade, impressão e retorno de valores, e a opção de praticar outros tipos de conteúdo por meio de exercícios na plataforma Beecrowd (nível iniciante).
+
+Por fim, durante a aula presencial da semana, desenvolvemos um código simples que simula o funcionamento de um caixa eletrônico, convertendo o valor inserido pelo usuário na menor quantidade possível de cédulas para realizar o pagamento.
+
+## Semana 3
+Nesta semana, aprendemos conceitos importantes de fatiamento em strings e listas, incluindo a sintaxe de intervalo com início incluso e fim exclusivo, além do uso de passos (pulos) em listas. Também reforçamos como acessar elementos em dicionários e aplicamos estruturas condicionais (`if`, `elif`) e laços de repetição com `for`, identificando comportamentos de controle de fluxo em diferentes situações.
+
+Além disso, desenvolvemos uma versão inicial de um script Python para leitura de dados de um arquivo `.txt`, utilizando funções auxiliares para extrair informações específicas (como notas e períodos), filtrar registros com base em condições, e calcular a média ou o máximo das notas. O foco foi trabalhar com leitura de arquivos, processamento de strings e uso de listas para consolidar dados.
+
+## Semana 4
+-
