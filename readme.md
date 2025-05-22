@@ -13,6 +13,7 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 3: https://github.com/fredpc/analytics2025/blob/main/python_parte_03_fatiando_iteraveis.ipynb
 - 4: https://github.com/fredpc/analytics2025/blob/main/python_parte_04_controle_de_fluxo_e_funcoes.ipynb
 - 5: https://github.com/fredpc/analytics2025/blob/main/python_parte_05_bibliotecas.ipynb
+- 6: https://github.com/fredpc/analytics2025/blob/main/python_parte_06_bibliotecas_importantes.ipynb
 
 ## Reflexões: O que foi aprendido até agora?
 
