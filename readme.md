@@ -18,6 +18,7 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 8: https://github.com/fredpc/analytics2025/blob/main/python_parte_08_banco_dados_parte_2.ipynb
 - 9: https://github.com/fredpc/analytics2025/blob/main/python_parte_09_pandas_parte_1.ipynb
 - 10: https://github.com/fredpc/analytics2025/blob/main/python_parte_10_graficos_.ipynb
+- 11: https://github.com/fredpc/analytics2025/blob/main/python_parte_11_big_data.ipynb
 
 ## Reflexões: O que foi aprendido até agora?
 
