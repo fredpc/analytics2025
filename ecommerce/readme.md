@@ -1,4 +1,4 @@
 - [1] Página com HTML e CSS Puro: https://github.com/fredpc/analytics2025/tree/main/ecommerce/sem_frameworks
 - [2] Página com CSS bootstrap: https://github.com/fredpc/analytics2025/tree/main/ecommerce/com_bootstrap
 - [3] Página Pixie com CSS editado estilo Amazon: https://github.com/fredpc/analytics2025/tree/main/ecommerce/pixie_editado
-- [4] Página gerada com IA usando as principais seções apresentadas em https://styled-ecom-boutique.lovable.app
+- [4] Página gerada com IA usando as principais seções apresentadas: https://styled-ecom-boutique.lovable.app
