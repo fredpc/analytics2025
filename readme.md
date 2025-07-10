@@ -19,6 +19,8 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 9: https://github.com/fredpc/analytics2025/blob/main/python_parte_09_pandas_parte_1.ipynb
 - 10: https://github.com/fredpc/analytics2025/blob/main/python_parte_10_graficos_.ipynb
 - 11: https://github.com/fredpc/analytics2025/blob/main/python_parte_11_big_data.ipynb
+- 12: https://github.com/fredpc/analytics2025/tree/main/ecommerce [Diretórios de páginas do e-commerce]
+- 12.1: Página gerada com IA usando as principais seções apresentadas em https://styled-ecom-boutique.lovable.app
 
 ## Reflexões: O que foi aprendido até agora?
 
@@ -35,6 +37,3 @@ Nesta semana, aprendemos conceitos importantes de fatiamento em strings e listas
 Além disso, desenvolvemos uma versão inicial de um script Python para leitura de dados de um arquivo `.txt`, utilizando funções auxiliares para extrair informações específicas (como notas e períodos), filtrar registros com base em condições, e calcular a média ou o máximo das notas. O foco foi trabalhar com leitura de arquivos, processamento de strings e uso de listas para consolidar dados.
 
 ## Semana 4
--
-
-[4] Página gerada com IA usando as principais seções apresentadas em https://styled-ecom-boutique.lovable.app
