@@ -20,7 +20,7 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 10: https://github.com/fredpc/analytics2025/blob/main/python_parte_10_graficos_.ipynb
 - 11: https://github.com/fredpc/analytics2025/blob/main/python_parte_11_big_data.ipynb
 - 12: https://github.com/fredpc/analytics2025/blob/main/python_parte_12_HTML_CSS_JS.ipynb
--- 12.1: Entregáveis em https://github.com/fredpc/analytics2025/tree/main/ecommerce
+- 12.1: Entregáveis em https://github.com/fredpc/analytics2025/tree/main/ecommerce
 
 ## Reflexões: O que foi aprendido até agora?
 
