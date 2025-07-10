@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analytics Store</title>
+  <!-- Bootstrap CSS local -->
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+  <!-- Ícones Bootstrap (ainda via CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <style>
+    /* Customizações originais preservadas */
+    .custom-bg-light {
+      background-color: #f5f5f5;
+    }
+    .custom-card {
+      width: 180px;
+    }
+    .custom-price {
+      color: green;
+      font-weight: bold;
+    }
+    /* Adicionado para manter o hover original */
+    .card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho (original preservado) -->
+  <header class="d-flex justify-content-between align-items-center p-3 bg-white">
+    <div class="logo bg-secondary text-white d-flex align-items-center justify-content-center" style="width:160px;height:60px;font-weight:bold">
+      Analytics Store
+    </div>
+
+    <div class="d-flex flex-grow-1 mx-3" style="max-width:600px">
+      <input type="text" class="form-control rounded-0 rounded-start" placeholder="Buscar produtos, marcas e mais">
+      <button class="btn btn-warning rounded-0 rounded-end">Buscar</button>
+    </div>
+
+    <div class="menu-usuario">
+      <a href="#" class="text-primary fw-bold mx-2 text-decoration-none">Entrar</a>
+      <a href="#" class="text-primary fw-bold mx-2 text-decoration-none">Criar conta</a>
+      <a href="#" class="text-primary fw-bold mx-2 text-decoration-none">Carrinho</a>
+    </div>
+  </header>
+
+  <!-- Menu de categorias (original preservado) -->
+  <nav class="d-flex gap-3 p-3 custom-bg-light overflow-auto">
+    <a href="#" class="text-dark text-decoration-none fw-medium">Ofertas do dia</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Supermercado</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Eletrônicos</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Moda</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Casa, Móveis e Decoração</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Ferramentas e Jardim</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Esporte e Lazer</a>
+    <a href="#" class="text-dark text-decoration-none fw-medium">Ver mais</a>
+  </nav>
+
+  <!-- Banner principal (original preservado) -->
+  <section class="banner custom-bg-light p-3">
+    <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:250px">
+      <span class="fw-bold fs-4">Banner1</span>
+    </div>
+  </section>
+
+  <!-- Ofertas do Dia (original preservado) -->
+  <section class="ofertas p-4">
+    <h2 class="fs-3 mb-3 text-center">Ofertas do Dia</h2>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <!-- Produto 1 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Produto1</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-1"><strong>Produto 1</strong></p>
+          <p class="custom-price mb-0">R$ 99,90</p>
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Produto2</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-1"><strong>Produto 2</strong></p>
+          <p class="custom-price mb-0">R$ 149,90</p>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Produto3</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-1"><strong>Produto 3</strong></p>
+          <p class="custom-price mb-0">R$ 79,90</p>
+        </div>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Produto4</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-1"><strong>Produto 4</strong></p>
+          <p class="custom-price mb-0">R$ 59,90</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorias em Destaque (original preservado) -->
+  <section class="categorias-destaque p-4">
+    <h2 class="fs-3 mb-3 text-center">Categorias em Destaque</h2>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <!-- Categoria 1 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Categoria1</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-0"><strong>Categoria 1</strong></p>
+        </div>
+      </div>
+
+      <!-- Categoria 2 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Categoria2</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-0"><strong>Categoria 2</strong></p>
+        </div>
+      </div>
+
+      <!-- Categoria 3 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Categoria3</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-0"><strong>Categoria 3</strong></p>
+        </div>
+      </div>
+
+      <!-- Categoria 4 -->
+      <div class="card custom-card border">
+        <div class="bg-secondary d-flex justify-content-center align-items-center" style="height:180px">Categoria4</div>
+        <div class="card-body text-center">
+          <p class="card-text mb-0"><strong>Categoria 4</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé (original preservado) -->
+  <footer class="footer custom-bg-light py-5 mt-4">
+    <div class="container">
+      <div class="row">
+        <!-- Coluna 1: Compras -->
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h4 class="fs-5">Compras</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Ajuda</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Como comprar</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Prazo de entrega</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 2: Venda Conosco -->
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h4 class="fs-5">Venda Conosco</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Seja um vendedor</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Políticas de vendas</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Institucional -->
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h4 class="fs-5">Institucional</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Sobre o Ecommerce</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Trabalhe conosco</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Redes Sociais -->
+        <div class="col-md-3">
+          <h4 class="fs-5">Redes Sociais</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Facebook</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Instagram</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center mt-4 pt-3 border-top">
+        <p class="mb-0">© 2025 Ecommerce. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS local -->
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
