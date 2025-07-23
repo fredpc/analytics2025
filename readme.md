@@ -22,7 +22,8 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 12: https://github.com/fredpc/analytics2025/blob/main/python_parte_12_HTML_CSS_JS.ipynb
 - 12 - Entregáveis: https://github.com/fredpc/analytics2025/tree/main/ecommerce
 - 13:
-- 13.1 Entregável - [Lista de Tarefas com Armazenamento Local](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/blob/main/projetos_javascript/lista_de_tarefas_com_armazenamento_local/index.html)
+- 13.1 - [Lista de Tarefas com Armazenamento Local](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/blob/main/projetos_javascript/lista_de_tarefas_com_armazenamento_local/index.html)
+- 13.2 - [Flashcards](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/blob/main/projetos_javascript/flashcards/index.html)
 
 ## Reflexões: O que foi aprendido até agora?
 
