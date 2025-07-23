@@ -24,6 +24,7 @@ Disciplina mestrada pelo professor doutor Leandro Cruvinel Lemes (https://github
 - 13:
 - 13.1 - [Lista de Tarefas com Armazenamento Local](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/blob/main/projetos_javascript/lista_de_tarefas_com_armazenamento_local/index.html)
 - 13.2 - [Flashcards](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/blob/main/projetos_javascript/flashcards/index.html)
+- 13.3 - [Gerador de Citações Aleatórias](https://htmlpreview.github.io/?https://github.com/fredpc/analytics2025/tree/main/projetos_javascript/gerador_de_citacoes_aleatoria/index.html)
 
 ## Reflexões: O que foi aprendido até agora?
 
