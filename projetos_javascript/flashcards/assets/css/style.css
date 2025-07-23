@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2e7d32; /* Verde escuro */
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8em 1.2em;
+  border-radius: 0.4em;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ff9800; /* Laranja */
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #f57c00;
+  transform: translateY(-2px);
+}
+
+.card-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Efeito Flip Card */
+.flashcard-container {
+  perspective: 1000px;
+  min-height: 200px;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 0.6em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.flashcard:hover {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.6em;
+}
+
+.flashcard-front {
+  background: #ffffff;
+  justify-content: center;
+  border: 3px solid #a5d6a7; /* Verde médio mais visível */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adiciona sombra sutil para mais profundidade */
+}
+
+.flashcard-back {
+  background: #4caf50; /* Verde */
+  transform: rotateY(180deg);
+  color: white;
+}
+
+.question-div {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2e7d32; /* Verde escuro */
+  margin-bottom: 1rem;
+}
+
+.flashcard-back .question-div {
+  color: #fff9c4; /* Amarelo claro */
+}
+
+.answer-div {
+  font-size: 1rem;
+  color: #424242;
+  line-height: 1.5;
+}
+
+.flashcard-back .answer-div {
+  color: white;
+}
+
+.card-actions {
+  display: none; /* Escondido por padrão */
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.flashcard-back .card-actions {
+  display: flex; /* Mostra apenas no verso */
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn:hover {
+  transform: scale(1.1);
+}
+
+.edit-btn {
+  background-color: #fff9c4; /* Amarelo claro */
+  color: #2e7d32; /* Verde escuro */
+}
+
+.delete-btn {
+  background-color: #ff9800; /* Laranja */
+  color: white;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.6em;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+  transform: translateY(-20px);
+  transition: transform 0.3s ease;
+  border: 2px solid #e8f5e9;
+}
+
+.modal.active .modal-content {
+  transform: translateY(0);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 1rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #ff9800;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #e8f5e9;
+  border-radius: 0.3em;
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.error-message {
+  color: #ff9800;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  display: none;
+}
+
+.empty-state {
+  text-align: center;
+  color: #2e7d32;
+  grid-column: 1 / -1;
+  padding: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .card-list-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .card-list-container {
+    grid-template-columns: 1fr;
+  }
+}
