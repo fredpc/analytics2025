@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéGerador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="assets/img/pokeball.png" class="logo" alt="Pokébola">
+            <h1>PokéGerador</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="left-column">
+                <div id="card" class="animate__animated animate__flipInY">
+                    <!-- Conteúdo será gerado pelo JS -->
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <button id="btn" class="btn-generate">
+                    GERAR POKÉMON
+                </button>
+                
+                <div class="stats-chart">
+                    <canvas id="statsCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
