@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard App</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  <body>
+    <div class="container {% if form.errors %}hide{% endif %}">
+      <div class="add-flashcard-con">
+        <button id="add-flashcard">Add Flashcard</button>
+      </div>
+
+      <!-- Display Card of Question And Answers Here -->
+      <div id="card-con">
+        <div class="card-list-container">
+          {% for card in flashcards %}
+          <div class="card">
+              <p class="question-div">{{card.question}}</p>
+              <a href="#" class="show-hide-btn">Show/Hide</a>
+              <p class="answer-div hide">{{card.answer}}</p>
+              <div class="btn-con">
+                <form method="POST" action="#">
+                  {% csrf_token %}
+                  <input type="hidden" name="id" value="{{ card.id }}">
+                  <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                </form>
+                <form method="POST" action="{% url 'delete_flashcard' id=card.id%}">
+                  {% csrf_token %}
+                  <input type="hidden" name="id" value="{{ card.id }}">
+                  <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                </form>
+              </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Input form for users to fill question and answer -->
+    <div class="question-container {% if not form.errors %}hide{% endif %}" id="add-question-card">
+      <h2>Add Flashcard</h2>
+      <form method="POST" action="{% url 'create_flashcard' %}">
+        {% csrf_token %}
+
+        <div class="wrapper">
+          <!-- Error message -->
+          <div class="error-con">
+            <span id="error">{{ form.non_field_errors }}</span>
+            <span id="error">{{ form.question.errors }}</span>
+            <span id="error"> {{ form.answer.errors }}</span>
+          </div>
+          <!-- Close Button -->
+          <i class="fa-solid fa-xmark" id="close-btn"></i>
+        </div>
+
+        <label for="question">Question:</label>
+        {{form.question}}
+
+        <label for="answer">Answer:</label>
+        {{form.answer}}
+        
+        <button id="save-btn" type="submit">Save</button>
+      </form>
+    </div>
+
+    <!-- Script -->
+    <script src="{% static 'script.js' %}"></script>
+  </body>
+</html>
