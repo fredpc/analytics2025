@@ -1,0 +1,88 @@
+{
+    "name": "Dark Crimson Professional",
+    "dataColors": [
+        "#E53935", 
+        "#BB86FC", 
+        "#03DAC6", 
+        "#FDD835", 
+        "#4DB6AC", 
+        "#64B5F6", 
+        "#A1887F", 
+        "#90A4AE"
+    ],
+    "background": "#121212",
+    "foreground": "#E0E0E0",
+    "tableAccent": "#E53935",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [{
+                    "responsive": true,
+                    "wordWrap": true,
+                    "fontSize": 11
+                }],
+                "wordWrap": [{
+                    "show": true
+                }],
+                "labels": [{
+                    "show": true,
+                    "labelOrientation": "vertical",
+                    "color": { "solid": { "color": "#B0B0B0" } }
+                }],
+                "categoryAxis": [{
+                    "showAxisTitle": true,
+                    "titleColor": { "solid": { "color": "#FFFFFF" } },
+                    "labelColor": { "solid": { "color": "#B0B0B0" } }
+                }],
+                "valueAxis": [{
+                    "showAxisTitle": true,
+                    "titleColor": { "solid": { "color": "#FFFFFF" } },
+                    "labelColor": { "solid": { "color": "#B0B0B0" } }
+                }],
+                "titleText": [{
+                    "color": { "solid": { "color": "#FFFFFF" } },
+                    "fontSize": 12
+                }],
+                "background": [{
+                    "color": "#121212"
+                }]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [{
+                    "fontSize": 27,
+                    "color": { "solid": { "color": "#E53935" } }
+                }],
+                "categoryLabels": [{
+                    "fontSize": 12,
+                    "color": { "solid": { "color": "#FFFFFF" } }
+                }]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "legend": [{
+                    "show": true,
+                    "labelColor": { "solid": { "color": "#B0B0B0" } }
+                }],
+                "labels": [{
+                    "labelStyle": "Percent of total",
+                    "color": { "solid": { "color": "#FFFFFF" } }
+                }]
+            }
+        },
+        "pieChart": {
+            "*": {
+                "legend": [{
+                    "show": true,
+                    "labelColor": { "solid": { "color": "#B0B0B0" } }
+                }],
+                "labels": [{
+                    "labelStyle": "Percent of total",
+                    "color": { "solid": { "color": "#FFFFFF" } }
+                }]
+            }
+        }
+    }
+}
